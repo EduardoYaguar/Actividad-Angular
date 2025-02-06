@@ -4,10 +4,12 @@ import { ContactoComponent } from './shared/contacto/contacto.component';
 import { CardsComponent } from './shared/cards/cards.component';
 import { RecursosService } from './servicios/recursos.service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from "./shared/footer/footer.component";
+import { WelcomeComponent } from "./shared/welcome/welcome.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ContactoComponent, CardsComponent, HttpClientModule],
+  imports: [RouterOutlet, ContactoComponent, CardsComponent, HttpClientModule, FooterComponent, WelcomeComponent],
   providers:[RecursosService],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
