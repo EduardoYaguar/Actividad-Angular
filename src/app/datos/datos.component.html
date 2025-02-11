@@ -1,0 +1,23 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">UserID</th>
+      <th scope="col">ID</th>
+      <th scope="col">Title</th>
+      <th scope="col">Body</th>
+      <th scope="col">View</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for(dato of datos; track dato.userId){
+
+      <tr>
+        <th scope="row">{{dato.userId}}</th>
+        <td>{{dato.id}}</td>
+        <td>{{dato.title}}</td>
+        <td>{{dato.body}}</td>
+        <td><button class=""></button></td>
+      </tr>
+    }
+  </tbody>
+</table>
