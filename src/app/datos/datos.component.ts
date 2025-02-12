@@ -1,8 +1,9 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-datos',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './datos.component.html',
 })
 export default class DatosComponent {

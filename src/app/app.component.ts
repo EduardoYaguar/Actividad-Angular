@@ -7,10 +7,11 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FooterComponent } from "./shared/footer/footer.component";
 import { WelcomeComponent } from "./shared/welcome/welcome.component";
 import { MenuComponent } from "./shared/menu/menu.component";
+import DatosComponent from "./datos/datos.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ContactoComponent, CardsComponent, HttpClientModule, FooterComponent, WelcomeComponent, MenuComponent],
+  imports: [RouterOutlet, ContactoComponent, CardsComponent, HttpClientModule, FooterComponent, WelcomeComponent, MenuComponent, DatosComponent],
   providers:[RecursosService],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

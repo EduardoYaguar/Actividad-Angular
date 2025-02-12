@@ -16,7 +16,7 @@
         <td>{{dato.id}}</td>
         <td>{{dato.title}}</td>
         <td>{{dato.body}}</td>
-        <td><button class=""></button></td>
+        <td><button class="btn btn-warning btn-sm mt-2" [routerLink]="['/datos', dato.id]" routerLinkActive="router-link-active" >View</button></td>
       </tr>
     }
   </tbody>

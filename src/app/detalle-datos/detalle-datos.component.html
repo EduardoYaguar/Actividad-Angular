@@ -1,0 +1,7 @@
+<div class="flex container mt-4 ">
+  <h2 class="text-primary-emphasis">Post ID: {{ selectedPost?.id }}</h2>
+  <h3 class="text-primary">{{ selectedPost?.title }}</h3>
+  <p class="fs-5">{{ selectedPost?.body }}</p>
+  <a class="btn btn-secondary" [routerLink]="['/datos']" routerLinkActive="router-link-active">Volver</a>
+</div>
+

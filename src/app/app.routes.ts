@@ -11,6 +11,10 @@ export const routes: Routes = [
     loadComponent: () => import('./datos/datos.component'),
   },
   {
+    path:'datos/:id',
+    loadComponent: () => import('./detalle-datos/detalle-datos.component'),
+  },
+  {
     path: '**',
     redirectTo: '',
   }
